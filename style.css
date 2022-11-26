@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald&family=Pacifico&family=Permanent+Marker&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald&family=Pacifico&family=Permanent+Marker&family=Secular+One&display=swap');
+:root{
+    --main-color:#227093;
+    --main-color-light:#218c74;
+    --accent-color:#dcdde1;
+}
+body{
+    background-image: linear-gradient(to bottom right,var(--main-color),var(--main-color-light));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header, .gorevForm{
+    min-height: 20vh;
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.5rem;
+    color: var(--accent-color);
+}
+.inputGorev{
+    height: 3rem;
+    width: 25rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+.gorevbtn{
+    height: 3.03rem;
+    width: 3.4rem;
+    margin-left: 0;
+    border: none;
+}
+.gorevbtn:hover{
+    color: white;
+    background-color: #0a3d62;
+    border: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gorevListesi{
+    list-style: none;
+    min-width: 40%;
+    margin: auto;
+    text-transform:capitalize;
+}
+.gorevitem{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0.5rem;
+    transition: 1s ease-in-out;
+    background-color: #dcdde1;
+}
+.gorevTanim{
+    display: flex;
+    justify-content:left;
+    flex: 1;
+    padding-left: .3rem;
+    padding-right: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Secular One', sans-serif;
+    color:#0c2461
+}
+.tamamlandi{
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    margin-right: 0;
+}
+.tamamlandi:hover{
+    color: white;
+    background-color: #0a3d62;
+    border: none;
+}
+.sil{
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    margin-left: .1rem;
+    margin-right: 0;
+}
+.sil:hover{
+    color: white;
+    background-color: #0a3d62;
+    border: none;
+}
+.kaybol{
+    transform: scale(1);
+} 
+.gorevTamamlandi{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fa-solid{
+    pointer-events:auto; 
+}
